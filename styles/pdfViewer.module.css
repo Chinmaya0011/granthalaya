@@ -1,12 +1,9 @@
-/* pdfViewer.module.css */
 
-/* Styles for the overall container */
 .pdfViewerContainer {
     height: 100vh;
   }
   
-  /* Styles for the popup */
-/* pdfViewer.module.css */
+
 .popup {
     position: absolute;
     color: #fff;
