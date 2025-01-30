@@ -1,0 +1,48 @@
+/* pdfViewer.module.css */
+
+/* Styles for the overall container */
+.pdfViewerContainer {
+    height: 100vh;
+  }
+  
+  /* Styles for the popup */
+/* pdfViewer.module.css */
+.popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+  
+  /* Styles for the Save Highlight button */
+  .saveButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  /* Styles for the highlighted text list */
+  .highlightedTextsContainer {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .highlightedTextsContainer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .highlightedTextsContainer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .highlightedTextsContainer li {
+    margin-bottom: 5px;
+  }
+  
