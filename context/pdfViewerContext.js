@@ -1,5 +1,4 @@
-// PdfViewerContext.js
-"use client"
+"use client";
 import { createContext, useState, useContext, useEffect } from 'react';
 
 const PdfViewerContext = createContext();
@@ -52,9 +51,13 @@ export const PdfViewerProvider = ({ children }) => {
     <PdfViewerContext.Provider
       value={{
         selectedText,
+        setSelectedText,
         isPopupVisible,
+        setIsPopupVisible, // ✅ Added this function so Popup.js can close the popup
         popupPosition,
+        setPopupPosition,
         highlightedTexts,
+        setHighlightedTexts,
         highlightPluginInstance,
         handleSaveHighlight,
       }}
